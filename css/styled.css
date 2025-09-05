@@ -1,6 +1,6 @@
 input::placeholder {
   color: (var(--neutral-gray));
-  padding: 20px;
+
   font-weight: 700;
 }
 
@@ -44,7 +44,7 @@ input::placeholder {
 }
 
 .signup-form {
-  width: 400px;
+  width: 450px;
   background: white;
   padding: 30px;
   border-radius: 5px;
@@ -58,6 +58,8 @@ input::placeholder {
 input {
   height: 40px;
   border-radius: 5px;
+  padding: 10px;
+  font-size: var(--primary-fontsize);
 }
 
 /* submit */

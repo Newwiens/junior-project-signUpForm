@@ -4,7 +4,7 @@
 }
 
 :root {
-  --primary-font: 1em;
+  --primary-fontsize: 1em;
   --primary-red: hsl(0, 100%, 74%);
   --primary-green: hsl(154, 59%, 51%);
   --accent-purple: hsl(248, 32%, 49%);
