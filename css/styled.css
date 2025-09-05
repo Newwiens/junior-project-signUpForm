@@ -1,3 +1,71 @@
-h1 {
-  font-size: 6em;
+input::placeholder {
+  color: (var(--neutral-gray));
+  padding: 20px;
+  font-weight: 700;
+}
+
+.register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 200px;
+}
+
+.register-info {
+  width: 32%;
+}
+
+.register-info > h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+  color: white;
+}
+
+.register-info > p {
+  color: white;
+  font-weight: 400;
+}
+/* rightside signup */
+
+.trail-banner {
+  height: 50px;
+  border-radius: 5px;
+  background: var(--accent-purple);
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.trail-banner > p {
+  color: white;
+}
+
+.signup-form {
+  width: 400px;
+  background: white;
+  padding: 30px;
+  border-radius: 5px;
+}
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  height: 40px;
+  border-radius: 5px;
+}
+
+/* submit */
+.submit-btn {
+  height: 50px;
+  border-radius: 5px;
+  background: var(--primary-green);
+  border: none;
+  color: white;
+  font-weight: 700;
 }

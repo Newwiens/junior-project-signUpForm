@@ -3,15 +3,76 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FONTS -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/global.css" />
     <link rel="stylesheet" href="css/styled.css" />
     <title>Sign Up Form</title>
   </head>
+
   <body>
-    <h1>Tet</h1>
-    <label for="signup">
-      <ul>
-        <li>test</li>
-      </ul>
-    </label>
+    <main class="register">
+      <!-- Leftside -->
+      <section class="register-info">
+        <h1>Learn to code by watching others</h1>
+        <p>
+          See how experienced developers solve problems in real-time atching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </section>
+
+      <!-- Rightside -->
+      <section class="signup">
+        <div class="signup-content">
+          <div class="trail-banner">
+            <p><strong>Try it free 7 days</strong>then $20/mo thereafter</p>
+          </div>
+          <h2></h2>
+        </div>
+        <form action="" class="signup-form">
+          <label for="firstname"></label>
+          <input
+            type="text"
+            id="firstname"
+            name="firstname"
+            placeholder="First Name"
+            required
+          />
+
+          <label for="lastname"></label>
+          <input
+            type="text"
+            id="lastname"
+            name="lastname"
+            placeholder="Last Name"
+            required
+          />
+
+          <label for="email"></label
+          ><input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email adress"
+            required
+          />
+
+          <label for="password"></label>
+          <input
+            type="password"
+            id="password"
+            name="pasword"
+            placeholder="Password"
+          />
+          <button class="submit-btn">CLAIM YOUR FREE TRAIL</button>
+        </form>
+      </section>
+    </main>
   </body>
 </html>

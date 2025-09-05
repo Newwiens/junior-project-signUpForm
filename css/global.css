@@ -1,0 +1,20 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --primary-font: 1em;
+  --primary-red: hsl(0, 100%, 74%);
+  --primary-green: hsl(154, 59%, 51%);
+  --accent-purple: hsl(248, 32%, 49%);
+  --neutral-gray: hsl(249, 10%, 26%);
+  --neutral-purple: hsl(246, 25%, 77%);
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--primary-red);
+  background-image: url("../assents/bg-intro-desktop.png");
+}
