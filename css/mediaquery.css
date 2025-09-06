@@ -1,0 +1,53 @@
+@media (min-width: 370px) {
+  /* * {
+    padding: 0px;
+    margin: 0px;
+  } */
+
+  body {
+    margin: 20px;
+  }
+
+  .register {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .register-info {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+  }
+
+  .register-info > h1 {
+    font-size: 2em;
+  }
+
+  /* Form */
+
+  .signup-form {
+    width: 70vw;
+  }
+}
+
+@media (min-width: 1440px) {
+  .register {
+    flex-direction: row;
+    gap: 100px;
+  }
+  .register-info {
+    width: 35%;
+  }
+
+  .register-info > h1 {
+    font-size: 2.5em;
+  }
+
+  .signup-form {
+    width: 450px;
+  }
+}

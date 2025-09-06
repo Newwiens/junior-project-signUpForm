@@ -4,6 +4,16 @@ input::placeholder {
   font-weight: 700;
 }
 
+/* error message */
+.error-message {
+  color: red;
+  font-size: var(--primary-fontsize);
+}
+
+input[aria-invalid="true"] {
+  border: 2px solid red;
+}
+
 .register {
   display: flex;
   align-items: center;
