@@ -39,7 +39,7 @@ form.addEventListener("submit", (e) => {
     lastnameError.textContent = "Last name cannot be empty";
   }
 
-  if (email.valuer.trim() === "") {
+  if (email.value.trim() === "") {
     email.setAttribute("aria-invalid". "true");
     emailError.textContent = "Please enter a valid email address"
   }
