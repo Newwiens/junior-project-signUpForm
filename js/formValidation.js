@@ -28,7 +28,7 @@ form.addEventListener("submit", (e) => {
   lastnameError.textContent = "";
   emailError.textContent = "";
 
-  //   if check empty strin
+  //   Check First Name
   if (firstname.value.trim() === "") {
     firstname.setAttribute("aria-invalid", "true"); // rood maken in CSS
     firstnameError.textContent = "First name cannot be empty";
@@ -37,9 +37,13 @@ form.addEventListener("submit", (e) => {
     firstnameError.textContent = "First name must be at least 2 characters";
   }
 
+  //Check Last Name
   if (lastname.value.trim() === "") {
     lastname.setAttribute("aria-invalid", "true");
     lastnameError.textContent = "Last name cannot be empty";
+  }else if (lastname.value.trim().lenght <2) {
+    lastname.setAttribute("aria-invalid", "true");
+    lastnameError.textContent = "Last name must be at least 2 characters"
   }
 
   if (email.value.trim() === "") {
