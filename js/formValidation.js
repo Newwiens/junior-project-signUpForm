@@ -13,7 +13,7 @@ const lastnameError = document.getElementById(
 );
 
 const email = document.querySelector("#email")
-const emailError = document.getElementById(email.getAttribute("arial-describedby"));
+const emailError = document.getElementById(email.getAttribute("aria-describedby"));
 
 //let valid = true;
 
@@ -40,7 +40,7 @@ form.addEventListener("submit", (e) => {
   }
 
   if (email.value.trim() === "") {
-    email.setAttribute("aria-invalid". "true");
+    email.setAttribute("aria-invalid", "true");
     emailError.textContent = "Please enter a valid email address"
   }
 
