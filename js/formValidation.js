@@ -32,6 +32,9 @@ form.addEventListener("submit", (e) => {
   if (firstname.value.trim() === "") {
     firstname.setAttribute("aria-invalid", "true"); // rood maken in CSS
     firstnameError.textContent = "First name cannot be empty";
+  }else if (firstname.value.trim().length < 2) {
+    firstname.setAttribute("aria-invalid",  "true");
+    firstnameError.textContent = "First name must be at least 2 characters";
   }
 
   if (lastname.value.trim() === "") {
