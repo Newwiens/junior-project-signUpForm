@@ -41,7 +41,7 @@ form.addEventListener("submit", (e) => {
   if (lastname.value.trim() === "") {
     lastname.setAttribute("aria-invalid", "true");
     lastnameError.textContent = "Last name cannot be empty";
-  }else if (lastname.value.trim().lenght < 2) {
+  }else if (lastname.value.trim().length < 2) {
     lastname.setAttribute("aria-invalid", "true");
     lastnameError.textContent = "Last name must be at least 2 characters";
   }
