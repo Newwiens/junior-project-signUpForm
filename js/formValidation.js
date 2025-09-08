@@ -34,9 +34,14 @@ form.addEventListener("submit", (e) => {
     firstnameError.textContent = "First name cannot be empty";
   }
 
-  if (lastname.value.trim() == "") {
+  if (lastname.value.trim() === "") {
     lastname.setAttribute("aria-invalid", "true");
     lastnameError.textContent = "Last name cannot be empty";
+  }
+
+  if (email.valuer.trim() === "") {
+    email.setAttribute("aria-invalid". "true");
+    emailError.textContent = "Please enter a valid email address"
   }
 
   console.log("BTN is geklikt");
@@ -48,6 +53,7 @@ const inputs = [
     error: firstnameError,
   },
   { inputId: lastname, error: lastnameError },
+  { inputId: email, error: emailError},
 ];
 
 inputs.forEach(({ inputId, error }) => {
