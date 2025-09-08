@@ -8,10 +8,18 @@ input::placeholder {
 .error-message {
   color: red;
   font-size: var(--primary-fontsize);
+  white-space: pre-line;
+  font-size: 0.8em;
+  text-align: right;
 }
 
 input[aria-invalid="true"] {
+  display: flex;
   border: 2px solid red;
+  background-image: url(../assents/icon-error.svg);
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 1rem;
 }
 
 .register {
