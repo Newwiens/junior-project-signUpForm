@@ -89,12 +89,32 @@ form.addEventListener("submit", (e) => {
   } else if (!PASSWORD_REGEX.test(password.value.trim())) {
     password.setAttribute("aria-invalid", "true");
     passwordError.textContent =
-      "Password must be at least 8 characters,\n" +
-      "at least 1 number,\n" +
-      "and at least 1 special character";
+      "Use 8 or more characters with\n" +
+      "a mix of letters, numbers & symbols.";
   }
 
-  console.log("BTN is geklikt");
+  if (passConfirm.value.trim() === "") {
+    passConfirm.setAttribute("aria-invalid", "true");
+    passConfirmError.textContent = "Please confirm your password";
+  } else if (password.value.trim() !== passConfirm.value.trim()) {
+    passConfirm.setAttribute("aria-invalid", "true");
+    passConfirmError.textContent = "Passwords do not match";
+  }
+
+  // Check again if all fields meet the conditions
+  const errorCheck = [
+    firstnameError.textContent,
+    lastnameError.textContent,
+    emailError.textContent,
+    passwordError.textContent,
+    passConfirmError.textContent,
+  ].every((msg) => msg === "");
+
+  if (errorCheck) {
+    // ✅ All fields are valid
+    alert("Success! You are registered.");
+    form.reset();
+  }
 });
 
 const inputs = [
@@ -105,6 +125,7 @@ const inputs = [
   { inputId: lastname, error: lastnameError },
   { inputId: email, error: emailError },
   { inputId: password, error: passwordError },
+  { inputId: passConfirm, error: passConfirmError },
 ];
 
 inputs.forEach(({ inputId, error }) => {
