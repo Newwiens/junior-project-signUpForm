@@ -39,11 +39,11 @@ form.addEventListener("submit", (e) => {
 
   //Check Last Name
   if (lastname.value.trim() === "") {
-    lastname.setAttribute("aria-invalid", "true");
-    lastnameError.textContent = "Last name cannot be empty";
-  }else if (lastname.value.trim().length < 2) {
-    lastname.setAttribute("aria-invalid", "true");
-    lastnameError.textContent = "Last name must be at least 2 characters";
+  lastname.setAttribute("aria-invalid", "true");
+  lastnameError.textContent = "Last name cannot be empty";
+} else if (lastname.value.trim().length < 2) {
+  lastname.setAttribute("aria-invalid", "true");
+  lastnameError.textContent = "Last name must be at least 2 characters";
   }
 
   if (email.value.trim() === "") {
