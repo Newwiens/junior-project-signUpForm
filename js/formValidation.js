@@ -12,6 +12,9 @@ const lastnameError = document.getElementById(
   lastname.getAttribute("aria-describedby")
 );
 
+const email = document.querySelector("#email")
+const emailError = document.getElementById(email.getAttribute("arial-describedby"));
+
 //let valid = true;
 
 form.addEventListener("submit", (e) => {
@@ -19,8 +22,11 @@ form.addEventListener("submit", (e) => {
 
   firstname.removeAttribute("aria-invalid"); // veld is weer geldig
   lastname.removeAttribute("aria-invalid");
+  email.removeAttribute("aria-invalid");
+
   firstnameError.textContent = "";
   lastnameError.textContent = "";
+  emailError.textContent = "";
 
   //   if check empty strin
   if (firstname.value.trim() === "") {
