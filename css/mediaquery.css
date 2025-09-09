@@ -46,7 +46,7 @@
   }
 }
 
-@media (min-width: 430px) {
+@media (min-width: 390px) {
   .register-info > p {
     padding: 0 20px;
   }
