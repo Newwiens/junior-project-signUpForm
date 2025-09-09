@@ -47,14 +47,19 @@ input[aria-invalid="true"] {
 /* rightside signup */
 
 .trail-banner {
-  height: 50px;
-  border-radius: 5px;
+  display: flex;
+  height: 3.1rem;
+  border-radius: 10px;
   background: var(--accent-purple);
   border: none;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
+}
+
+.trail-banner > p:first-child {
+  font-weight: 700;
 }
 
 .signup {
@@ -69,7 +74,7 @@ input[aria-invalid="true"] {
   width: 28rem;
   background: white;
   padding: 1.5rem;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 .signup-form {
   display: flex;
@@ -93,4 +98,37 @@ input {
   color: white;
   font-weight: 700;
   cursor: pointer;
+
+  box-shadow: inset 0 3px 0 rgba(255, 255, 255, 0.35),
+    /* lichte rand boven */ inset 0 -3px 0 rgba(0, 0, 0, 0.1); /* schaduw onder binnenin */
+  transition: box-shadow 0.15s ease, transform 0.08s ease, filter 0.15s ease;
+}
+
+.submit-btn:hover {
+  filter: brightness(1.1); /* fade in 150ms */
+}
+
+.terms {
+  color: var(--neutral-gray);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 0.6em;
+  font-weight: 500;
+  gap: 4px;
+}
+
+.terms-copy {
+  opacity: 0.6;
+}
+.terms-link {
+  color: var(--primary-red);
+  font-weight: 700;
+}
+/* shadow */
+.trail-banner,
+.signup-form {
+  box-shadow: 0 7px 5px rgba(0, 0, 0, 0.2), 0 6px 5px rgba(0, 0, 0, 0.4);
 }
