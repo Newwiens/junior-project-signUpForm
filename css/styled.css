@@ -1,9 +1,3 @@
-input::placeholder {
-  color: (var(--neutral-gray));
-
-  font-weight: 700;
-}
-
 /* error message */
 .error-message {
   color: red;
@@ -83,10 +77,16 @@ input[aria-invalid="true"] {
 }
 
 input {
-  height: 1.87rem;
+  height: 2.8rem;
   border-radius: 5px;
-  padding: 10px;
+  padding: 5px;
   font-size: var(--primary-fontsize);
+}
+
+input::placeholder {
+  color: (var(--neutral-gray));
+  font-weight: 500;
+  opacity: 0.2;
 }
 
 /* submit */
