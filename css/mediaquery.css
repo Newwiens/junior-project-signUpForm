@@ -5,7 +5,7 @@
 
   .register {
     flex-direction: column;
-    gap: 20px;
+    gap: 40px;
   }
 
   .register-info {
@@ -13,6 +13,8 @@
     flex-direction: column;
     width: 100vw;
     text-align: center;
+    gap: 10px;
+    line-height: 1.2;
   }
 
   .register-info > h1 {
@@ -44,6 +46,20 @@
   }
 }
 
+@media (min-width: 430px) {
+  .register-info > p {
+    padding: 0 20px;
+  }
+
+  .signup {
+    width: 100%;
+  }
+
+  .trail-banner {
+    height: 5rem;
+  }
+}
+
 @media (min-width: 768px) {
   .register {
     flex-direction: row;
@@ -60,6 +76,10 @@
 
   .register-info > h1 {
     line-height: 1.2;
+  }
+
+  .register-info > p {
+    padding: 0;
   }
 
   .trail-banner {
@@ -88,18 +108,14 @@
     font-size: 2.5em;
   }
 
-  .trail-banner {
-    flex-direction: row;
-    height: 3.6rem;
-    gap: 5px;
-  }
-
   .signup {
     width: 32vw;
   }
 
-  .signup-form {
-    width: 100%;
+  .trail-banner {
+    flex-direction: row;
+    height: 3.6rem;
+    gap: 5px;
   }
 
   .terms {
