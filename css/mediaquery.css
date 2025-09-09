@@ -99,9 +99,16 @@
   }
 }
 
+@media (min-width: 1024px) {
+  .register-info {
+    width: 30vw;
+    line-height: 1.5;
+  }
+}
+
 @media (min-width: 1440px) {
   .register-info {
-    width: 35%;
+    width: 24vw;
   }
 
   .register-info > h1 {
