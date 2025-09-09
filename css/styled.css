@@ -14,19 +14,19 @@ input::placeholder {
 }
 
 input[aria-invalid="true"] {
-  display: flex;
   border: 2px solid red;
-  background-image: url(../assents/icon-error.svg);
+  background-image: url(../assets/icon-error.svg);
   background-repeat: no-repeat;
   background-position: right 0.75rem center;
   background-size: 1rem;
 }
 
 .register {
+  min-height: 100vh;
+  padding-bottom: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
   gap: 200px;
 }
 
@@ -57,6 +57,10 @@ input[aria-invalid="true"] {
   margin-bottom: 20px;
 }
 
+.signup {
+  width: 100%;
+}
+
 .trail-banner > p {
   color: white;
 }
@@ -66,6 +70,10 @@ input[aria-invalid="true"] {
   background: white;
   padding: 1.5rem;
   border-radius: 5px;
+}
+.signup-form {
+  display: flex;
+  flex-direction: column;
   gap: 8px;
 }
 
