@@ -1,7 +1,7 @@
 **`README.nl.md` (Nederlands)**
 
 ````markdown
-# Frontend Mentor – Registratiecomponent (Validatie)
+# Registratie Formulier pagina (Validatie)
 
 > Engelse versie: [README.md](README.md)
 
