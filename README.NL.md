@@ -1,12 +1,15 @@
-# Frontend Mentor – Signup Form (Validation)
+**`README.nl.md` (Nederlands)**
 
-> 🇳🇱 Dutch version: [README.nl.md](./README.nl.md)
+````markdown
+# Frontend Mentor – Registratiecomponent (Validatie)
 
-I wanted realistic, practice-oriented projects to improve my JavaScript. That led me to **Frontend Mentor**. With small challenges I push myself: not just “make it work”, but improve my code approach—analyse problems, refactor, and apply the **DRY** principle.
+> Engelse versie: [README.md](./README.md)
+
+Ik wilde beter worden in JavaScript met **praktijkgerichte** projecten. Zo kwam ik bij **Frontend Mentor**. Met kleine challenges daag ik mezelf uit: niet alleen “laten werken”, maar mijn code-aanpak verbeteren, problemen analyseren, refactoren en het **DRY-principe** toepassen.
 
 ## Challenge
 
-A **registration component** with client-side validation and clear error messages, fully responsive for mobile, tablet, and desktop.
+Een **registratie-component** met client-side validatie en duidelijke foutmeldingen, volledig responsief voor mobiel, tablet en desktop.
 
 ## Demo & Code
 
@@ -15,31 +18,31 @@ A **registration component** with client-side validation and clear error message
 
 ## Features
 
-- Modular vanilla JS validation (higher-order validators + rule config per field)
-- Per-field “first error” feedback
-- Granular email checks (+ regex fallback)
-- Password rule: ≥8 chars, ≥1 number & ≥1 symbol
-- Responsive layout & hover states
-- **A11y**: `aria-invalid`, `aria-describedby` (optionally `aria-live="polite"`)
+- Modulaire validatie in vanilla JS (validator-“fabriekjes” + regels per veld)
+- Per veld de **eerste fout** direct tonen
+- Fijnmazige e-mailchecks (+ regex als vangnet)
+- Wachtwoordregel: ≥8 tekens, ≥1 cijfer & ≥1 symbool
+- Responsieve layout & hover-states
+- **Toegankelijkheid**: `aria-invalid`, `aria-describedby`
 
-## What I learned
+## Wat heb ik geleerd
 
-- Structuring a component **modularly** in vanilla JS
-- Working with **arrays** and **objects**; when to use **for** vs **forEach**
-- Building validation from **small, reusable pieces** (helpers + mini “validator factories”)
-- Defining rules **per field** and showing the **first error immediately**
-- Applying basic **WCAG/A11y** patterns for accessible forms
+- Een component **modulair** opzetten in vanilla JS
+- Werken met **arrays** en **objecten**; **for** vs **forEach**
+- Validatie opbouwen in **kleine, herbruikbare stukjes** (hulpfuncties + mini “validator-fabriekjes”)
+- Per veld regels definiëren en de **eerste fout direct** tonen
+- **WCAG/A11y**-patronen toepassen voor toegankelijke formulieren
 
 ## Stack
 
 - HTML, CSS, JavaScript (vanilla)
 
-## Run locally
+## Lokaal draaien
 
 ```bash
-# clone
+# kloon
 git clone https://github.com/Newwiens/junior-project-signUpForm.git
 cd junior-project-signUpForm
 
-# open index.html with a live server (VS Code: "Open with Live Server")
 ```
+````
