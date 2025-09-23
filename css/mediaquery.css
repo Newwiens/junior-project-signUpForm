@@ -2,7 +2,9 @@
   body {
     margin: 20px;
   }
-
+  .error-message {
+    font-size: 0.6em;
+  }
   .register {
     flex-direction: column;
     gap: 40px;
@@ -103,6 +105,10 @@
   .register-info {
     width: 30vw;
     line-height: 1.5;
+  }
+
+  .error-message {
+    font-size: 0.8em;
   }
 }
 

@@ -35,6 +35,7 @@ const passConfirmError = document.getElementById(
 form.addEventListener("submit", (e) => {
   e.preventDefault();
 
+  //clear error
   firstname.removeAttribute("aria-invalid"); // veld is weer geldig
   lastname.removeAttribute("aria-invalid");
   email.removeAttribute("aria-invalid");
