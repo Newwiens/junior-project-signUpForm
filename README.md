@@ -10,7 +10,7 @@ A **registration component** with client-side validation and clear error message
 
 ## Demo & Code
 
-- 🔗 Demo: https://junior-project-sign-up-form-git-main-newwiens-projects.vercel.app/
+- 🔗 Demo: https://junior-project-sign-up-form.vercel.app/
 - 🗂️ Repo: https://github.com/Newwiens/junior-project-signUpForm.git
 
 ## Features
