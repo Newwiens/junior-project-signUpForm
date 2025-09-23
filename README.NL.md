@@ -3,7 +3,7 @@
 ````markdown
 # Frontend Mentor – Registratiecomponent (Validatie)
 
-> Engelse versie: [README.md](./README.md)
+> Engelse versie: [README.md](README.md)
 
 Ik wilde beter worden in JavaScript met **praktijkgerichte** projecten. Zo kwam ik bij **Frontend Mentor**. Met kleine challenges daag ik mezelf uit: niet alleen “laten werken”, maar mijn code-aanpak verbeteren, problemen analyseren, refactoren en het **DRY-principe** toepassen.
 
