@@ -1,6 +1,6 @@
 # Frontend Mentor – Signup Form (Validation)
 
-> 🇳🇱 Dutch version: [README.nl.md](./README.nl.md)
+> 🇳🇱 Dutch version: [README.NL.md](./README.NL.md)
 
 I wanted realistic, practice-oriented projects to improve my JavaScript. That led me to **Frontend Mentor**. With small challenges I push myself: not just “make it work”, but improve my code approach—analyse problems, refactor, and apply the **DRY** principle.
 
