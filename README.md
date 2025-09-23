@@ -1,4 +1,4 @@
-# Frontend Mentor – Signup Form (Validation)
+# Signup Form Page (Validation)
 
 > 🇳🇱 Dutch version: [README.NL.md](./README.NL.md)
 
