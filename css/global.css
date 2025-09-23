@@ -18,5 +18,5 @@ body {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   background-color: var(--primary-red);
-  background-image: url("../assents/bg-intro-desktop.png");
+  background-image: url("../assets/bg-intro-desktop.png");
 }
